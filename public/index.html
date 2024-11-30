@@ -5,7 +5,7 @@
     <title>My Final Project~</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="flex flex-col">
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost text-xl">SKIBIDI SIGMA RIZZLER</a>
+        <a class="btn btn-ghost text-xl">SUI.com</a>
       </div>
       <div class="navbar-end">
         <button class="btn btn-circle btn-ghost">
@@ -78,22 +78,46 @@
     </div>
 
     <div class="flex-none">
-      <p class="text-center text-2xl text-blue-950">OHIO FANUM TAXERS</p>
+      <p class="text-center text-2xl text-blue-950">CRISTIANO RONALDO</p>
     </div>
-    <div></div>
+
     <div class="hero min-h-screen bg-base-200">
       <div class="hero-content flex-col lg:flex-row">
         <img
           src="https://preview.redd.it/ronaldo-futties-probably-my-best-ever-yet-took-me-2-hours-v0-a6dd60hrutuc1.png?width=1080&crop=smart&auto=webp&s=db2335354510a8843f0d3faa43fa74b30301a9d0"
           class="max-w-sm rounded-lg shadow-2xl"
         />
-        <div>
-          <h1 class="text-5xl font-bold">Cristiano Ronaldo stat changer</h1>
-          <p class="py-6"></p>
+      </div>
+    </div>
 
-          <button class="btn btn-primary">Get Started</button>
+    <div class="flex flex-col">
+      <h1 class="text-5xl font-bold">Fifa player Stat changer fc 24</h1>
+      <p class="py-6"></p>
+
+      <button class="btn btn-primary">Get Started</button>
+      <div class="h-96">
+        <div class="relative flex h-full items-center justify-center">
+          <img
+            src="https://static.wefut.com/assets/images/fut24/gold154.png?253"
+            class="absolute top-0 h-full max-w-sm rounded-lg shadow-2xl"
+          />
+          <img
+            id="player-img"
+            src="imgs/1.webp"
+            class="absolute top-1/3 h-1/2 -translate-y-1/3"
+          />
         </div>
       </div>
     </div>
+
+    <div class="my-4">
+      <button id="generate" class="btn">Generate player</button>
+      <input
+        type="text"
+        placeholder="Type stats here"
+        class="input input-ghost w-full max-w-xs"
+      />
+    </div>
+    <script src="player.js"></script>
   </body>
 </html>
